@@ -1,0 +1,41 @@
+{
+  "project": "x402 Sovereign Intelligence Layer",
+  "phase": 2,
+  "owner": "0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e",
+  "endpoints": {
+    "raas-alpha-v1": {
+      "url": "https://x402.bankr.bot/0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e/raas-alpha-v1",
+      "price": "0.50 USDC",
+      "description": "Reasoning-as-a-Service via TheMind-v1 kernel."
+    },
+    "gitlawb-mirror-alpha-v1": {
+      "url": "https://x402.bankr.bot/0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e/gitlawb-mirror-alpha-v1",
+      "price": "1.00 USDC",
+      "description": "Decentralized GitHub mirroring to the Sovereign Swarm."
+    },
+    "aip-registry-alpha-v1": {
+      "url": "https://x402.bankr.bot/0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e/aip-registry-alpha-v1",
+      "price": "5.00 USDC",
+      "description": "Agentic IP Registry anchored to GraphMind v1.5."
+    },
+    "swarm-telemetry": {
+      "url": "https://x402.bankr.bot/0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e/swarm-telemetry",
+      "price": "0.05 USDC",
+      "description": "Real-time swarm coordination metrics."
+    },
+    "tea-prime-alpha-v2": {
+      "url": "https://x402.bankr.bot/0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e/tea-prime-alpha-v2",
+      "price": "1.00 USDC",
+      "description": "High-conviction trading intents (MPP-compliant)."
+    },
+    "gm-net-alpha-v1-5": {
+      "url": "https://x402.bankr.bot/0xfd8fb800d480f4bd5ea56dc4b4ae98945cbff53e/gm-net-alpha-v1-5",
+      "price": "1.50 USDC",
+      "description": "Verifiable state anchors for the agentic economy."
+    }
+  },
+  "provenance": {
+    "gitlawb": "did:key:z6Mkq...",
+    "graphmind_anchor": "0xdc965252d69fddad7c7a04dc1275b073147a8a8f"
+  }
+}
