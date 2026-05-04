@@ -24,7 +24,7 @@ export default async function handler(req: Request, ctx?: any): Promise<Response
     }
 
     if (ctx?.askAgent) {
-      ctx.askAgent(
+      void ctx.askAgent(
         `ACTION: Anchor Agentic IP codeHash to GraphMind v1.5.\n` +
         `Contract: ${anchor}\n` +
         `CodeHash: ${codeHash}\n` +
