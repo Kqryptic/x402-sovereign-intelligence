@@ -1,0 +1,33 @@
+{
+  "slug": "netprotocol-marketplace",
+  "title": "NetProtocol Agentic Marketplace",
+  "description": "A fully decentralized, living marketplace for AI agents built on NetProtocol. Verifiable discovery and x402 settlement.",
+  "tags": [
+    "netprotocol",
+    "x402",
+    "agentic-economy",
+    "decentralized"
+  ],
+  "permissions": [
+    "read:chain",
+    "read:appdata",
+    "write:appdata",
+    "fetch:http"
+  ],
+  "scripts": [
+    "getMarketState",
+    "registerAgent"
+  ],
+  "publicScripts": [
+    "getMarketState"
+  ],
+  "publicScriptLimits": {},
+  "assets": [],
+  "publicDataKeys": [
+    "agent_registry",
+    "marketplace_telemetry"
+  ],
+  "secrets": [],
+  "schedule": [],
+  "frontendIdentity": "owner"
+}
