@@ -1,0 +1,41 @@
+{
+  "agents": [
+    {
+      "id": "tea-prime",
+      "name": "TEA Prime",
+      "weight": 1,
+      "pnl": 0.05,
+      "sharpe": 2.1
+    },
+    {
+      "id": "hero-audit",
+      "name": "HERO Audit",
+      "weight": 1,
+      "pnl": 0.02,
+      "sharpe": 1.5
+    },
+    {
+      "id": "sse-sports",
+      "name": "SSE Sports",
+      "weight": 1,
+      "pnl": -0.01,
+      "sharpe": 0.8
+    },
+    {
+      "id": "reflexivity-engine",
+      "name": "Reflexivity",
+      "weight": 1,
+      "pnl": 0.03,
+      "sharpe": 1.9
+    }
+  ],
+  "regime": "Bull / Euphoria",
+  "reflexivity": {
+    "priceFundamentals": "Positive",
+    "pnlBehavior": "Aggressive",
+    "narrativeFlows": "Strong",
+    "marketPolicy": "Neutral",
+    "reversalDetection": "Low"
+  },
+  "lastUpdate": 1777922329405
+}
